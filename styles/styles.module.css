@@ -7,3 +7,5 @@
   width: 80%;
   height: auto;
 }
+.fade-in-image { animation: fadeIn 1s; }
+
