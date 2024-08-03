@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/styles.module.css';
 
 const images = [
-  '/images/pic1.jpg',
-  '/images/pic2.jpg',
-  '/images/pic3.jpg'
+  '/images/IMG_3375.jpg',
+  '/images/IMG_4001.jpg',
+  '/images/IMG_7634.jpg'
 ];
 
 export default function Home() {
