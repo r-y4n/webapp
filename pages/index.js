@@ -20,9 +20,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1>i made this website to prove its easy to code</h1>
-    <div class="fade-in-image">
       <img src={images[currentImageIndex]} alt="Cycling images" className={styles.image} />
-  </div>
   </div>
 
   );
