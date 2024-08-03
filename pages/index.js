@@ -24,10 +24,10 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>Image Cycler</h1>
+      <h1>pluh</h1>
       <img 
         src={images[currentImageIndex]} 
-        alt="Cycling images" 
+        alt="pluh" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
     </div>
