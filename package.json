@@ -1,5 +1,5 @@
 {
-  "name": "picture-cycler",
+  "name": "webapp",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
