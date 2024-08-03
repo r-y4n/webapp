@@ -9,19 +9,27 @@ const images = [
 
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 3 seconds
+      setFade(false);
+      setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        setFade(true);
+      }, 1000); // Match this duration to the CSS transition duration
+    }, 4000); // Change image every 4 seconds (including 1 second for fade out and 1 second for fade in)
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className={styles.container}>
-      <h1>i made this website to prove its easy to code</h1>
-      <img src={images[currentImageIndex]} alt="Cycling images" className={styles.image} />
-  </div>
-
+      <h1>Image Cycler</h1>
+      <img 
+        src={images[currentImageIndex]} 
+        alt="Cycling images" 
+        className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
+      />
+    </div>
   );
 }
