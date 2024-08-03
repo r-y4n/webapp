@@ -13,14 +13,17 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 5000); // Change image every 3 seconds
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className={styles.container}>
       <h1>i made this website to prove its easy to code</h1>
+    <div class="fade-in-image">
       <img src={images[currentImageIndex]} alt="Cycling images" className={styles.image} />
-    </div>
+  </div>
+  </div>
+
   );
 }
