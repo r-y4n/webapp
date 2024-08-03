@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/styles.module.css';
 
 const images = [
-  '/images/IMG_3375.jpeg',
+  '/images/IMG_4028.jpeg',
   '/images/IMG_4001.jpeg',
   '/images/IMG_7634.jpeg'
 ];
