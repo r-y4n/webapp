@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>Image Cycler</h1>
+      <h1>i made this website to prove its easy to code</h1>
       <img src={images[currentImageIndex]} alt="Cycling images" className={styles.image} />
     </div>
   );
