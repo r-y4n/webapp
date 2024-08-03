@@ -6,11 +6,10 @@
 .image {
   width: 80%;
   height: auto;
-}
-.fade-in-image { animation: fadeIn 1s; }
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
+.image.fade-in {
+  opacity: 1;
+}
