@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>pluh</h1>
+      <h1>easy webapp</h1>
       <img 
         src={images[currentImageIndex]} 
         alt="pluh" 
