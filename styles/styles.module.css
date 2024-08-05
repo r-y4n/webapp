@@ -24,7 +24,7 @@
   top: 0; /* Position at the top of the container */
   left: 0; /* Position at the left of the container */
   z-index: 1; /* Lower z-index to ensure the circle is behind the image */
-  transform: translate(-10%, -10%); /* Adjust to make the circle partially cut off by the viewport */
+  transform: translate(-25%, -25%); /* Adjust to make the circle partially cut off by the viewport */
 }
 
 .image.fade-in {
