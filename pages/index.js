@@ -32,5 +32,10 @@ export default function Home() {
       />
          <div className={styles.circ1}></div>
     </div>
+    <footer>
+        <p> webapp optimized for iPhone <p>
+        <p> all code on this website designed by Ryan J.<p>
+        <p> repo for the website on my github r-y4n <p>
+    <footer>
   );
 }
