@@ -10,6 +10,6 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "mongodb": "^4.0.0" // Adjust the version if needed
+    "mongodb": "^4.0.0"
   }
 }
