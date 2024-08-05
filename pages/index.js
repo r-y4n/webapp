@@ -24,10 +24,10 @@ export default function Home() {
 
   useEffect(() => {
     const footer = document.createElement('footer');
-    footer.innerHTML = 
+    footer.innerHTML = `
       <p><small>all code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by ryan j.</small></p>
-      <p><small>optimized for iphone.<small><p>
-    ;
+      <p><small>Optimized for iPhone</small></p>
+    `;
     footer.style.backgroundColor = '#333';
     footer.style.color = '#d8d8ff';
     footer.style.textAlign = 'center';
@@ -45,11 +45,11 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>hi</h1>
+      <h1>Hi</h1>
       <img 
         src={images[currentImageIndex]} 
-        alt="If you are seeing this I made an oopsie 😔🙏" 
-        className={${styles.image} ${fade ? styles['fade-in'] : ''}} 
+        alt="if you are seeing this i made an oopsie 😔🙏" 
+        className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
       <div className={styles.circ2}></div>
       <div className={styles.circ1}></div>
