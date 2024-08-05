@@ -51,6 +51,7 @@ export default function Home() {
         alt="If you are seeing this I made an oopsie 😔🙏" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
+      <div className={styles.circ2}></div>
       <div className={styles.circ1}></div>
     </div>
   );
