@@ -30,7 +30,7 @@ export default function Home() {
     `;
     footer.style.backgroundColor = '#333';
     footer.style.color = '#d8d8ff';
-    footer.style.textAlign = 'center';
+    footer.style.textAlign = 'center', 'top';
     footer.style.padding = '10px';
     footer.style.position = 'fixed';
     footer.style.bottom = '0';
