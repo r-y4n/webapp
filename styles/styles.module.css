@@ -16,7 +16,7 @@
 }
 
 .circ1 {
-  position: absolute;
+  position: fixed;
   width: 50vw; /* Use viewport width units for responsiveness */
   height: 50vw; /* Same as width to keep it circular */
   background-color: #d8ebff;
