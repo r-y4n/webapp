@@ -26,6 +26,7 @@ export default function Home() {
     const footer = document.createElement('footer');
     footer.innerHTML = `
       <p><small>All code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by Ryan J.</small></p>
+      <p><small>optimized for iphone.<small><p>
     `;
     footer.style.backgroundColor = '#333';
     footer.style.color = '#d8d8ff';
@@ -44,7 +45,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>Webapp</h1>
+      <h1>fancy webapp</h1>
       <img 
         src={images[currentImageIndex]} 
         alt="If you are seeing this I made an oopsie 😔🙏" 

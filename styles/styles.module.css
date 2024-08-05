@@ -1,6 +1,6 @@
 .container {
   position: relative; /* Establishes a positioning context for the absolutely positioned circle */
-  text-align: right;
+  text-align: center;
   margin-top: 50px;
   z-index: 2;
   overflow: hidden; /* Hide the overflowing part of the circle */
