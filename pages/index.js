@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1> </h1>
+      <h1> webapp </h1>
       <img 
         src={images[currentImageIndex]} 
         alt="if you are seeing this I made an oopsie 😔🙏" 
