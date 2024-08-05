@@ -3,7 +3,6 @@
   text-align: center;
   margin-top: 50px;
   position: relative; /* This is crucial for the circle's absolute positioning */
-  z-index: 2;
 }
 
 .image {
@@ -21,7 +20,6 @@
   border-radius: 50%;
   top: -40px; /* Adjust these values to position the circle as desired */
   left: -50px; /* Adjust these values to position the circle as desired */
-  z-index: 1;
 }
 
 .image.fade-in {
