@@ -10,6 +10,7 @@
   height: auto;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  z-index: 2;
 }
 
 .circ1 {
@@ -20,6 +21,7 @@
   border-radius: 50%;
   top: -40px; /* Adjust these values to position the circle as desired */
   left: -50px; /* Adjust these values to position the circle as desired */
+  z-index: 1;
 }
 
 .image.fade-in {
