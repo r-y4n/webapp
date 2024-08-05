@@ -29,7 +29,7 @@ export default function Home() {
       <p><a href="https://github.com/r-y4n" style="color: #0000ff;">github link</a></p>
     `;
     footer.style.backgroundColor = '#333';
-    footer.style.color = '#fff';
+    footer.style.color = '#d8d8ff';
     footer.style.textAlign = 'center';
     footer.style.padding = '10px';
     footer.style.position = 'fixed';
