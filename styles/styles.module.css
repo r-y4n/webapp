@@ -19,8 +19,8 @@
   height: 200px;
   background-color: #d8ebff;
   border-radius: 50%;
-  top: -25%; /* Adjust as needed to position the circle */
-  left: -25%; /* Center the circle horizontally relative to the container */
+  top: -40px; /* Adjust as needed to position the circle */
+  left: -50px; /* Center the circle horizontally relative to the container */
   transform: translate(-50%, -50%); /* Center the circle vertically and horizontally */
   z-index: 1; /* Lower z-index to ensure the circle is behind the image */
 }
