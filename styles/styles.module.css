@@ -1,6 +1,8 @@
+/* styles.module.css */
 .container {
   text-align: center;
   margin-top: 50px;
+  position: relative; /* This is crucial for the circle's absolute positioning */
 }
 
 .image {
@@ -11,13 +13,13 @@
 }
 
 .circ1 {
-  position: absolute;
-  width: 100px:
-  height: 100px:
+  position: absolute; /* This makes the circle's position absolute relative to .container */
+  width: 100px;
+  height: 100px;
   background-color: #d8ebff;
   border-radius: 50%;
-  top: -40px;
-  left: -50px;
+  top: -40px; /* Adjust these values to position the circle as desired */
+  left: -50px; /* Adjust these values to position the circle as desired */
 }
 
 .image.fade-in {
