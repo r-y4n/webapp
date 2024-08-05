@@ -30,6 +30,7 @@ export default function Home() {
         alt="pluh" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
+         <div className={styles.circ1}></div>
     </div>
   );
 }
