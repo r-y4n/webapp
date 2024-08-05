@@ -24,10 +24,10 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>easy webapp</h1>
+      <h1> </h1>
       <img 
         src={images[currentImageIndex]} 
-        alt="pluh" 
+        alt="if you seeing this I made an oopsie 😔🙏" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
          <div className={styles.circ1}></div>
