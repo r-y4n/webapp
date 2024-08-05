@@ -32,10 +32,18 @@ export default function Home() {
       />
          <div className={styles.circ1}></div>
     </div>
-    <footer>
-        <p> webapp optimized for iPhone <p>
-        <p> all code on this website designed by Ryan J.<p>
-        <p> repo for the website on my github r-y4n <p>
-    <footer>
+    <script>
+       
+        const footer = document.createElement('footer');
+
+       
+        footer.innerHTML = `
+            <p> all code on this website and in github made by Ryan J.</p>
+            <p><a href="https://github.com/r-y4n" style="color: #0000ff ;">github link</a></p>
+        `;
+
+       
+        document.body.appendChild(footer);
+    </script>
   );
 }
