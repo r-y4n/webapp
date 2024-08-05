@@ -6,7 +6,7 @@ const images = [
   '/images/IMG_4001.jpeg',
   '/images/IMG_7634.jpeg'
 ];
-<div className={styles.circ1}></div>
+
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [fade, setFade] = useState(true);
@@ -22,28 +22,35 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    const footer = document.createElement('footer');
+    footer.innerHTML = `
+      <p>all code on this website and in github made by Ryan J.</p>
+      <p><a href="https://github.com/r-y4n" style="color: #0000ff;">github link</a></p>
+    `;
+    footer.style.backgroundColor = '#333';
+    footer.style.color = '#fff';
+    footer.style.textAlign = 'center';
+    footer.style.padding = '10px';
+    footer.style.position = 'fixed';
+    footer.style.bottom = '0';
+    footer.style.width = '100%';
+    document.body.appendChild(footer);
+
+    return () => {
+      document.body.removeChild(footer);
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <h1> </h1>
       <img 
         src={images[currentImageIndex]} 
-        alt="if you seeing this I made an oopsie 😔🙏" 
+        alt="if you are seeing this I made an oopsie 😔🙏" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
-         <div className={styles.circ1}></div>
+      <div className={styles.circ1}></div>
     </div>
-    <script>
-       
-        const footer = document.createElement('footer');
-
-       
-        footer.innerHTML = `
-            <p> all code on this website and in github made by Ryan J.</p>
-            <p><a href="https://github.com/r-y4n" style="color: #0000ff ;">github link</a></p>
-        `;
-
-       
-        document.body.appendChild(footer);
-    </script>
   );
 }
