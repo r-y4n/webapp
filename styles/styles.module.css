@@ -1,8 +1,9 @@
-/* styles.module.css */
 .container {
+  position: relative; /* Establishes a positioning context for the absolutely positioned circle */
   text-align: right;
   margin-top: 50px;
   z-index: 2;
+  overflow: hidden; /* Hide the overflowing part of the circle */
 }
 
 .image {
@@ -16,14 +17,14 @@
 
 .circ1 {
   position: absolute;
-  width: 15%;
-  height: 15%;
+  width: 15vw; /* Use viewport width units for responsiveness */
+  height: 15vw; /* Same as width to keep it circular */
   background-color: #d8ebff;
   border-radius: 50%;
-  top: 0; /* Adjust as needed to position the circle */
-  left: 0; /* Center the circle horizontally relative to the container */
+  top: 0; /* Position at the top of the container */
+  left: 0; /* Position at the left of the container */
   z-index: 1; /* Lower z-index to ensure the circle is behind the image */
-  transform: translate(-25vw, -25vw);
+  transform: translate(-10%, -10%); /* Adjust to make the circle partially cut off by the viewport */
 }
 
 .image.fade-in {
