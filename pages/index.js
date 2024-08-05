@@ -6,7 +6,7 @@ const images = [
   '/images/IMG_4001.jpeg',
   '/images/IMG_7634.jpeg'
 ];
-
+<div className={styles.circ1}></div>
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [fade, setFade] = useState(true);
