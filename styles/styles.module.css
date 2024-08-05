@@ -10,19 +10,16 @@
   transition: opacity 1s ease-in-out;
 }
 
-.circle {
+.circ1 {
+  position: absolute;
   width: 100px:
   height: 100px:
   background-color: #d8ebff;
   border-radius: 50%;
+  top: -40px;
+  left: -50px;
 }
 
 .image.fade-in {
   opacity: 1;
-}
-
-.circpos1 {
-  position: absolute
-  top: -40px
-  left: -50px
 }
