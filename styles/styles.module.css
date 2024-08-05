@@ -2,7 +2,7 @@
 .container {
   text-align: center;
   margin-top: 50px;
-  position: relative; /* This is crucial for the circle's absolute positioning */
+  position: relative; /* Allows absolute positioning of children */
 }
 
 .image {
@@ -10,16 +10,20 @@
   height: auto;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  position: relative; /* Ensures the image can be layered above other absolutely positioned elements */
+  z-index: 2; /* Higher z-index to ensure it appears above the circle */
 }
 
 .circ1 {
-  position: absolute; /* This makes the circle's position absolute relative to .container */
+  position: absolute; /* Positioned relative to .container */
   width: 200px;
   height: 200px;
   background-color: #d8ebff;
   border-radius: 50%;
-  top: -40px; /* Adjust these values to position the circle as desired */
-  left: -50px; /* Adjust these values to position the circle as desired */
+  top: 50%; /* Adjust as needed to position the circle */
+  left: 50%; /* Center the circle horizontally relative to the container */
+  transform: translate(-50%, -50%); /* Center the circle vertically and horizontally */
+  z-index: 1; /* Lower z-index to ensure the circle is behind the image */
 }
 
 .image.fade-in {
