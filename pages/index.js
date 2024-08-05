@@ -25,7 +25,7 @@ export default function Home() {
   useEffect(() => {
     const footer = document.createElement('footer');
     footer.innerHTML = `
-      <p>all code on this website and in github made by Ryan J.</p>
+      <p>all code on this website and in github made by ryan j.</p>
       <p><a href="https://github.com/r-y4n" style="color: #0000ff;">github link</a></p>
     `;
     footer.style.backgroundColor = '#333';
@@ -34,7 +34,8 @@ export default function Home() {
     footer.style.padding = '10px';
     footer.style.position = 'fixed';
     footer.style.bottom = '0';
-    footer.style.width = '100%';
+    footer.style.width = '95%';
+    footer.style.height = '5%';
     document.body.appendChild(footer);
 
     return () => {
