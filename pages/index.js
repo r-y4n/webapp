@@ -25,7 +25,7 @@ export default function Home() {
   useEffect(() => {
     const footer = document.createElement('footer');
     footer.innerHTML = `
-      <p><small>All code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by Ryan J.</small></p>
+      <p><small>all code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by ryan j.</small></p>
       <p><small>optimized for iphone.<small><p>
     `;
     footer.style.backgroundColor = '#333';
