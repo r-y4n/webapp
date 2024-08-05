@@ -36,7 +36,7 @@
   height: 100vw; /* Same as width to keep it circular */
   background-color: #aad2fc;
   border-radius: 50%;
-  bottom: -10%; 
-  right: 10%; 
+  bottom: 0%; 
+  right: 0%; 
   z-index: 1; 
 }
