@@ -9,7 +9,6 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "mongodb": "^4.0.0"
+    "react-dom": "latest"
   }
 }
