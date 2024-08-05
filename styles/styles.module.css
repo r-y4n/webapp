@@ -1,7 +1,7 @@
 .container {
   position: relative; /* Establishes a positioning context for the absolutely positioned circle */
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5%;
   z-index: 2;
   overflow: hidden; /* Hide the overflowing part of the circle */
 }
@@ -17,8 +17,8 @@
 
 .circ1 {
   position: absolute;
-  width: 15vw; /* Use viewport width units for responsiveness */
-  height: 15vw; /* Same as width to keep it circular */
+  width: 50vw; /* Use viewport width units for responsiveness */
+  height: 50vw; /* Same as width to keep it circular */
   background-color: #d8ebff;
   border-radius: 50%;
   top: 0; /* Position at the top of the container */
