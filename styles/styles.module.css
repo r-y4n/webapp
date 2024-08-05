@@ -16,8 +16,8 @@
 
 .circ1 {
   position: absolute;
-  width: 15vw;
-  height: 15vw;
+  width: 15%;
+  height: 15%;
   background-color: #d8ebff;
   border-radius: 50%;
   top: 0; /* Adjust as needed to position the circle */
