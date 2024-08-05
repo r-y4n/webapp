@@ -20,3 +20,9 @@
 .image.fade-in {
   opacity: 1;
 }
+
+.circpos {
+  position: absolute
+  top: -50px
+  left: -50px
+}
