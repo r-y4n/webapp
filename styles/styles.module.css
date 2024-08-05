@@ -16,13 +16,14 @@
 
 .circ1 {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   background-color: #d8ebff;
   border-radius: 50%;
-  top: -40px; /* Adjust as needed to position the circle */
-  left: -50px; /* Center the circle horizontally relative to the container */
+  top: 0; /* Adjust as needed to position the circle */
+  left: 0; /* Center the circle horizontally relative to the container */
   z-index: 1; /* Lower z-index to ensure the circle is behind the image */
+  transform: translate(-25vw, -25vw);
 }
 
 .image.fade-in {
