@@ -11,7 +11,7 @@
   opacity: 0;
   transition: opacity 1s ease-in-out;
   position: relative; /* Ensures the image can be layered above other absolutely positioned elements */
-  z-index: 3; /* Higher z-index to ensure it appears above the circle */
+  z-index: 2; /* Higher z-index to ensure it appears above the circle */
 }
 
 .circ1 {
