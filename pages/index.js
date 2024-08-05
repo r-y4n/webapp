@@ -21,20 +21,20 @@ export default function Home() {
     }, 4000); // Change image every 4 seconds (including 1 second for fade out and 1 second for fade in)
     return () => clearInterval(interval);
   }, []);
-<div className={styles.circ1}></div>
+
   useEffect(() => {
     const footer = document.createElement('footer');
     footer.innerHTML = `
-      <p><small>all code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">github</a> made by ryan j.</small></p>
+      <p><small>All code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by Ryan J.</small></p>
     `;
     footer.style.backgroundColor = '#333';
     footer.style.color = '#d8d8ff';
-    footer.style.textAlign = 'center', 'top';
+    footer.style.textAlign = 'center';
     footer.style.padding = '10px';
     footer.style.position = 'fixed';
     footer.style.bottom = '0';
     footer.style.width = '95%';
-    footer.style.height = '5%';
+    footer.style.height = 'auto'; // Adjust height as needed
     document.body.appendChild(footer);
 
     return () => {
@@ -44,11 +44,13 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1> webapp </h1>
+      <h1>Webapp</h1>
       <img 
         src={images[currentImageIndex]} 
-        alt="if you are seeing this I made an oopsie 😔🙏" 
+        alt="If you are seeing this I made an oopsie 😔🙏" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
+      <div className={styles.circ1}></div>
+    </div>
   );
 }
