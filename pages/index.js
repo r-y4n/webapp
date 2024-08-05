@@ -21,7 +21,7 @@ export default function Home() {
     }, 4000); // Change image every 4 seconds (including 1 second for fade out and 1 second for fade in)
     return () => clearInterval(interval);
   }, []);
-
+<div className={styles.circ1}></div>
   useEffect(() => {
     const footer = document.createElement('footer');
     footer.innerHTML = `
@@ -50,7 +50,5 @@ export default function Home() {
         alt="if you are seeing this I made an oopsie 😔🙏" 
         className={`${styles.image} ${fade ? styles['fade-in'] : ''}`} 
       />
-      <div className={styles.circ1}></div>
-    </div>
   );
 }
