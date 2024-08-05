@@ -2,7 +2,6 @@
 .container {
   text-align: center;
   margin-top: 50px;
-  position: relative; /* Allows absolute positioning of children */
 }
 
 .image {
@@ -15,7 +14,7 @@
 }
 
 .circ1 {
-  position: absolute; /* Positioned relative to .container */
+  position: absolute;
   width: 200px;
   height: 200px;
   background-color: #d8ebff;
