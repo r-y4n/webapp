@@ -1,3 +1,4 @@
+/* styles.module.css */
 .container {
   position: relative; /* Establishes a positioning context for the absolutely positioned circle */
   text-align: center;
@@ -21,22 +22,65 @@
   height: 50vw; /* Same as width to keep it circular */
   background-color: #d8ebff;
   border-radius: 50%;
-  top: 0; /* Position at the top of the container */
-  left: 0; /* Position at the left of the container */
+  top: -25vw; /* Position at the top of the viewport, partially off-screen */
+  left: -25vw; /* Position at the left of the viewport, partially off-screen */
   z-index: 1; /* Lower z-index to ensure the circle is behind the image */
-  transform: translate(-25%, -25%); /* Adjust to make the circle partially cut off by the viewport */
 }
 
 .image.fade-in {
   opacity: 1;
 }
+
 .circ2 {
   position: fixed;
   width: 75vw; /* Use viewport width units for responsiveness */
   height: 75vw; /* Same as width to keep it circular */
   background-color: #aad2fc;
   border-radius: 50%;
-  bottom: 20%; 
-  right: -50%; 
+  bottom: -50vw; /* Position at the bottom of the viewport, partially off-screen */
+  right: -50vw; /* Position at the right of the viewport, partially off-screen */
   z-index: 1; 
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  .container {
+    margin-top: 50px;
+    max-width: 80%; /* Adjust as needed for larger screens */
+  }
+
+  .circ1 {
+    width: 25vw; /* Adjust size for larger screens */
+    height: 25vw;
+    top: -12.5vw; /* Adjust position for larger screens */
+    left: -12.5vw;
+  }
+
+  .circ2 {
+    width: 50vw; /* Adjust size for larger screens */
+    height: 50vw;
+    bottom: -25vw; /* Adjust position for larger screens */
+    right: -25vw;
+  }
+}
+
+/* Responsive design for very large screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 60%; /* Adjust as needed for very large screens */
+  }
+
+  .circ1 {
+    width: 20vw; /* Adjust size for very large screens */
+    height: 20vw;
+    top: -10vw; /* Adjust position for very large screens */
+    left: -10vw;
+  }
+
+  .circ2 {
+    width: 40vw; /* Adjust size for very large screens */
+    height: 40vw;
+    bottom: -20vw; /* Adjust position for very large screens */
+    right: -20vw;
+  }
 }
