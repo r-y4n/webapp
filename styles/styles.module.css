@@ -52,12 +52,11 @@
   .navbar {
     position: fixed;
     width: 75vw;
+    margin: auto;
     height: 10vw;
     text-align: center;
     display: flex;
     gap: 30vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
     background-color: white;
     z-index: 2
   }
