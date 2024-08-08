@@ -54,6 +54,8 @@
     text-align: center;
     display: flex;
     gap: 25vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
   }
     
   
