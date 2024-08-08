@@ -44,7 +44,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.indxcontainer}>
       <h1>Hi</h1>
       <img 
         src={images[currentImageIndex]} 
