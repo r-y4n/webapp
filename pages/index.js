@@ -52,7 +52,7 @@ export default function Home() {
       />
       <div className={styles.circ2}></div>
       <div className={styles.circ1}></div>
-        <div className={styles.navbar}>
+        <div className={styles.navbarind}>
         <h1>
           <a href="/index" style={{ color: '#000000' }}>Home</a>
         </h1>
