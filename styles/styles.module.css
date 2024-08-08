@@ -34,7 +34,7 @@
   position: fixed;
   width: 75vw; /* Use viewport width units for responsiveness */
   height: 75vw; /* Same as width to keep it circular */
-  background-color: #aad2fc;
+  background-color: #aad2fc;5
   border-radius: 50%;
   bottom: 20%; 
   right: -50%; 
@@ -45,4 +45,12 @@
   width: 80vw;
   height: 80vw;
   background-color: #d8ebff;
+
+  .navbar {
+    position: fixed;
+    width: 75vw;
+    height: 10vw;
+    text-align: center;
+  }
+    
   
