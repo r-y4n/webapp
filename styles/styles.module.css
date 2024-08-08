@@ -46,6 +46,7 @@
   height: 100vw;
   background-color: #d8ebff;
   z-index: 1;
+  padding-top: 20vw;
 }
 
   .navbar {
