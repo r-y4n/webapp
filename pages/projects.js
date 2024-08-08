@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div>
       <div className={styles.projbg}></div>
-      <div className={styles.navbar}>
+      <div className={styles.navbarproj}>
         <h1>
           <a href="/index" style={{ color: '#000000' }}>Home</a>
         </h1>
