@@ -1,3 +1,4 @@
+
 .indxcontainer {
   position: relative; /* Establishes a positioning context for the absolutely positioned circle */
   text-align: center;
@@ -60,6 +61,7 @@
     display: flex;
     gap: 30vw;
     z-index: 2
+    text-decoration: none;
   }
     
   
