@@ -7,11 +7,9 @@ export default function Projects() {
       <div className={styles.navbar}>
         <h1>
           <a href="/index" style={{ color: '#000000' }}>Home</a>
-            text-align: left;
         </h1>
         <h1>
           <a href="/projects" style={{ color: '#000000' }}>Projects</a>
-            text-align: right;
         </h1>
       </div>
     </div>
