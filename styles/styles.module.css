@@ -46,6 +46,7 @@
   height: 80vw;
   background-color: #d8ebff;
   padding: 10vw;
+  z-index: 1;
 }
 
   .navbar {
@@ -57,6 +58,8 @@
     gap: 30vw;
     padding-left: 5vw;
     padding-right: 5vw;
+    background-color: white;
+    z-index: 2
   }
     
   
