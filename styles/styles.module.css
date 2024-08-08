@@ -34,7 +34,7 @@
   position: fixed;
   width: 75vw; /* Use viewport width units for responsiveness */
   height: 75vw; /* Same as width to keep it circular */
-  background-color: #aad2fc;5
+  background-color: #aad2fc;
   border-radius: 50%;
   bottom: 20%; 
   right: -50%; 
