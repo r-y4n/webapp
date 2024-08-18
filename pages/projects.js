@@ -12,6 +12,9 @@ export default function Projects() {
           <a href="/projects" style={{ color: '#000000' }}>Projects</a>
         </h1>
       </div>
+      <div className={styles.projcontainer}> 
+        <h2> nothing yet !!! 😔🙏</h2>
+      </div>
     </div>
   );
 }

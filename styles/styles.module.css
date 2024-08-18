@@ -79,3 +79,13 @@
     font-family: american-typewriter;
   }
   
+.projcontainer {
+  position: fixed;
+  padding-top: 30vw;
+  width: 90vw;
+  height: auto;
+  text-align: left;
+  z-index: 1;
+  font-family: american-typewriter;
+  display: flex;
+}
