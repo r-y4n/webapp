@@ -17,8 +17,8 @@ export default function Home() {
       setTimeout(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFade(true);
-      }, 1000); // Match this duration to the CSS transition duration
-    }, 4000); // Change image every 4 seconds (including 1 second for fade out and 1 second for fade in)
+      }, 1000); 
+    }, 4000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -35,7 +35,7 @@ export default function Home() {
     footer.style.position = 'fixed';
     footer.style.bottom = '0';
     footer.style.width = '95%';
-    footer.style.height = 'auto'; // Adjust height as needed
+    footer.style.height = 'auto';
     document.body.appendChild(footer);
 
     return () => {

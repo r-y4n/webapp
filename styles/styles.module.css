@@ -1,9 +1,9 @@
 .indxcontainer {
-  position: relative; /* Establishes a positioning context for the absolutely positioned circle */
+  position: relative;
   text-align: center;
   margin-top: 5%;
   z-index: 2;
-  overflow: hidden; /* Hide the overflowing part of the circle */
+  overflow: hidden; 
 }
 
 .image {
@@ -11,20 +11,20 @@
   height: auto;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  position: relative; /* Ensures the image can be layered above other absolutely positioned elements */
-  z-index: 2; /* Higher z-index to ensure it appears above the circle */
+  position: relative; 
+  z-index: 2; 
 }
 
 .circ1 {
   position: fixed;
-  width: 50vw; /* Use viewport width units for responsiveness */
-  height: 50vw; /* Same as width to keep it circular */
+  width: 50vw; 
+  height: 50vw; 
   background-color: #d8ebff;
   border-radius: 50%;
-  top: 0; /* Position at the top of the container */
-  left: 0; /* Position at the left of the container */
-  z-index: 1; /* Lower z-index to ensure the circle is behind the image */
-  transform: translate(-25%, -25%); /* Adjust to make the circle partially cut off by the viewport */
+  top: 0; 
+  left: 0; 
+  z-index: 1;
+  transform: translate(-25%, -25%); 
 }
 
 .image.fade-in {
@@ -32,8 +32,8 @@
 }
 .circ2 {
   position: fixed;
-  width: 75vw; /* Use viewport width units for responsiveness */
-  height: 75vw; /* Same as width to keep it circular */
+  width: 75vw;
+  height: 75vw; 
   background-color: #aad2fc;
   border-radius: 50%;
   bottom: 20%; 

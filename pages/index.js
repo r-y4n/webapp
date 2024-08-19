@@ -9,6 +9,5 @@ if (typeof window !== "undefined") {
         document.body.appendChild(messageDiv);
     }
 } else {
-    // Code for server-side rendering if needed
     console.log("Server-side rendering: Skipping user agent check");
 }
