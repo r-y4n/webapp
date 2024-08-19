@@ -39,6 +39,7 @@
   bottom: 20%; 
   right: -50%; 
   z-index: 1; 
+  opacity: 80%;
 }
 .projbg {
   position: fixed;
