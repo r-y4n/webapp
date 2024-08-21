@@ -57,7 +57,7 @@ export default function Home() {
           <a href="/home" style={{ color: '#000000' }}>Home</a>
         </h1>
         <h1>
-          <a href="/projects" style={{ color: '#000000' }}>Projects</a>
+          <a href="/projects" style={{ color: '#000000' }}>Stuff</a>
         </h1>
       </div>
     </div>
