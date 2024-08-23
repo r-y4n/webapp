@@ -28,7 +28,7 @@ export default function Home() {
       <p><small>all code on this website and in <a href="https://github.com/r-y4n" style="color: #0000eb;">GitHub</a> made by ryan j.</small></p>
       <p><small>Optimized for iPhone</small></p>
     `;
-    footer.style.backgroundColor = '#333';
+    footer.style.backgroundColor = '#8ec4e6';
     footer.style.color = '#d8d8ff';
     footer.style.textAlign = 'center';
     footer.style.padding = '10px';
