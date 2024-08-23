@@ -29,6 +29,7 @@ export default function Home() {
       <p><small>Optimized for iPhone</small></p>
     `;
     footer.style.backgroundColor = '#8ec4e6';
+    footer.style.opacity = '80%';
     footer.style.color = '#d8d8ff';
     footer.style.textAlign = 'center';
     footer.style.padding = '10px';
